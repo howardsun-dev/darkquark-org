@@ -1,35 +1,36 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dark Quark — Three.js</title>
-    <meta
-      name="description"
-      content="A static Three.js page with a quark-themed model and a plain-language quark definition."
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main class="layout">
-      <section class="panel" aria-labelledby="title">
-        <p class="eyebrow">darkquark.org</p>
-        <h1 id="title">Quark</h1>
-        <p class="definition">
-          <strong>Definition:</strong> A quark is an elementary particle that combines with other quarks
-          to form hadrons such as protons and neutrons. Quarks carry fractional electric charge,
-          come in six flavors (up, down, charm, strange, top, bottom), and interact through the
-          strong force mediated by gluons.
-        </p>
-      </section>
 
-      <section class="panel viewer-panel">
-        <div id="scene" class="scene" role="img" aria-label="Animated Three.js quark model"></div>
-        <p class="hint">Model: 3 orbiting quarks around a glowing center, with color charge styling.</p>
-        <footer class="site-footer">Made with Three.js</footer>
-      </section>
-    </main>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dark Quark — Three.js</title>
+  <meta name="description" content="Dark Quark site" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <script type="module" src="script.js"></script>
-  </body>
+<body>
+  <main class="layout">
+    <section class="panel" aria-labelledby="title">
+      <p class="eyebrow">darkquark.org</p>
+      <h1 id="title">Quark</h1>
+      <p class="definition">
+        <strong>Definition:</strong> A quark is an elementary particle that combines with other quarks
+        to form hadrons such as protons and neutrons. Quarks carry fractional electric charge,
+        come in six flavors (up, down, charm, strange, top, bottom), and interact through the
+        strong force mediated by gluons.
+      </p>
+    </section>
+
+    <section class="panel viewer-panel">
+      <div id="scene" class="scene" role="img" aria-label="Animated Three.js quark model"></div>
+      <p class="hint">Model: 3 orbiting quarks around a glowing center, with color charge styling.</p>
+      <footer class="site-footer">Made with Three.js</footer>
+    </section>
+
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+
 </html>
