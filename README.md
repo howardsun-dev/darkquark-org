@@ -1,3 +1,3 @@
-# darkquark-org
+# darkquark.org
 
-Repository scaffold.
+Static Three.js quark model landing page for darkquark.org.
