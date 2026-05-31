@@ -37,7 +37,7 @@ body {
   padding: 0 24px;
   color: var(--muted);
   font-size: 0.9rem;
-  text-align: left;
+  text-align: right;
 }
 
 .panel {
